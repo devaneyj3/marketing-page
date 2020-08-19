@@ -2,7 +2,6 @@ import React from 'react';
 import { Nav } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
 import './nav.scss'
-
 const Navigation = () => {
     return (
         <Nav>

@@ -1,0 +1,7 @@
+@import  '../../mixins.scss';
+.home {
+    @include flex;
+    .info {
+        align-self: center;
+    }
+}
