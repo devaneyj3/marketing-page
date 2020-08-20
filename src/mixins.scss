@@ -1,5 +1,16 @@
 @mixin flex {
     display: flex;
     justify-content: center;
-    height: 300px;
+}
+
+@mixin card {
+    width: 25%;
+    margin: 5%;
+    padding: 5%;
+    line-height: 1.5em;
+}
+
+@mixin card_image {
+    margin-top: 5%;
+    margin-bottom: 5%
 }

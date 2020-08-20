@@ -1,7 +1,13 @@
 @import  '../../mixins.scss';
 .home {
     @include flex;
+    height: 500px;
     .info {
         align-self: center;
     }
+}
+
+.products {
+    @include flex;
+    flex-wrap: wrap;
 }

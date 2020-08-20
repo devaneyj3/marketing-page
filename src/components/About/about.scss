@@ -4,17 +4,12 @@
     height: 100%;
     flex-wrap: wrap;
     .card {
-        width: 25%;
-        border: 1px solid black;
-        margin: 5%;
-        padding: 5%;
-        line-height: 1.5em;
+        @include card;
         .card-title {
             font-size: 1.5rem;
         }
         img {
-            margin-top: 5%;
-            margin-bottom: 5%
+            @include card_image;
         }
     }
 }

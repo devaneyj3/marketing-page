@@ -1,0 +1,15 @@
+@import  '../../../mixins.scss';
+.card-deck {
+    margin: auto;
+
+}
+.card {
+    @include card;
+    width: 100%;
+    .card-title {
+        font-size: 1.5rem;
+    }
+    img {
+        @include card_image;
+    }
+}
