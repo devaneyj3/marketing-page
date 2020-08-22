@@ -1,4 +1,7 @@
 @import  '../../mixins.scss';
+.about-heading {
+    margin: 10%;
+}
 .about {
     @include flex;
     height: 100%;

@@ -5,10 +5,10 @@ import Staff from './Staff.js'
 
 
 const About = () => {
-    const [ people, setPeople ] = useState(newArray)
+    const [ people ] = useState(newArray)
     return (
         <>
-            <h1>About</h1>
+            <h1 className="about-heading">We take pride in high quality cereal. The best cereal on the face of the earth. However, be warned that there might be some of Dwight's dandruff in some of the cereal.</h1>
             <div className="about">
                 {people.map(person => {
                     return (

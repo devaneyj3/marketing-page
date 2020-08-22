@@ -1,0 +1,18 @@
+@import  '../../mixins.scss';
+.contact {
+    @include flex;
+    align-items: center;
+    height: 300px;
+    .contact-info {
+        margin: 15%
+    }   
+}
+.contact-form {
+    @include flex;
+    form {
+        display: grid;
+        input, textarea {
+            margin-bottom: 20%;
+        }
+    }
+}
