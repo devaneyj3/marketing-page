@@ -6,6 +6,7 @@
 @mixin card {
     width: 50%;
     line-height: 1.5em;
+    margin: 4% 0 10%
 }
 
 @mixin card_image {
