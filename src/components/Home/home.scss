@@ -2,6 +2,9 @@
 .home {
     @include flex;
     height: 500px;
+    img {
+        @include card_image
+    }
     .info {
         align-self: center;
     }
